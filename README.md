@@ -1,0 +1,1 @@
+# detecao-rachaduras-paredes
