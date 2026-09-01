@@ -87,7 +87,9 @@ O conjunto inicial de imagens será composto por fotografias contendo paredes co
 
 ## Quantidade inicial
 
-Pretende-se iniciar o projeto com aproximadamente 30 a 50 imagens.
+Para o experimento preliminar da M1 foram utilizadas 5 imagens de entrada.
+
+Nas próximas etapas, o conjunto de imagens será ampliado para permitir uma avaliação mais abrangente do método.
 
 ## Formatos
 
@@ -218,15 +220,22 @@ A biblioteca OpenCV fornece recursos suficientes para a implementação inicial 
 
 # 9. Experimentos Preliminares
 
-Como experimento inicial, pretende-se realizar:
+Foi realizado um experimento preliminar utilizando a biblioteca OpenCV para verificar a viabilidade da abordagem proposta.
+
+O experimento foi aplicado às cinco imagens disponíveis na pasta `images/input/` e seguiu as seguintes etapas:
 
 1. Leitura das imagens;
 2. Conversão para escala de cinza;
-3. Aplicação de filtro Gaussiano;
-4. Detecção de bordas utilizando Canny;
-5. Comparação visual dos resultados.
+3. Aplicação de filtro Gaussiano para redução de ruído;
+4. Detecção de bordas utilizando o algoritmo Canny;
+5. Salvamento dos resultados processados na pasta `images/results/`;
+6. Comparação visual entre as imagens de entrada e os resultados.
 
-Esses testes servirão para verificar a capacidade do sistema em destacar regiões compatíveis com rachaduras.
+Os resultados obtidos demonstram que a detecção de bordas é capaz de destacar diferentes características presentes nas superfícies analisadas, incluindo regiões correspondentes a possíveis rachaduras.
+
+Entretanto, também são identificadas outras bordas relacionadas à textura da parede, iluminação e demais características das imagens. Dessa forma, o experimento indica a viabilidade da abordagem, mas evidencia a necessidade de técnicas adicionais para reduzir falsos positivos e melhorar a identificação das regiões de interesse.
+
+Os resultados deste experimento serão utilizados como base para o refinamento do pipeline nas próximas etapas do projeto.
 
 ---
 
