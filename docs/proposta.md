@@ -252,3 +252,15 @@ Bradski, G.; Kaehler, A. Learning OpenCV: Computer Vision with the OpenCV Librar
 Gonzalez, R. C.; Woods, R. E. Processamento Digital de Imagens.
 
 Documentação NumPy. Disponível em: https://numpy.org/
+
+## Experimento preliminar
+
+Foi realizado um experimento preliminar utilizando a biblioteca OpenCV com o objetivo de verificar a viabilidade da detecção de características semelhantes a rachaduras nas imagens.
+
+O processamento utilizado consiste inicialmente na conversão das imagens para escala de cinza, seguida pela aplicação de um filtro Gaussiano para redução de ruídos e, posteriormente, pela detecção de bordas utilizando o algoritmo Canny.
+
+Foram processadas cinco imagens de entrada, armazenadas em `images/input/`. Os resultados do processamento foram armazenados em `images/results/`.
+
+O experimento permitiu observar as bordas presentes nas imagens, incluindo regiões correspondentes a possíveis rachaduras. Também foram identificadas outras bordas provenientes da textura da parede, iluminação e demais características presentes nas imagens.
+
+Dessa forma, o experimento preliminar indica que a abordagem possui potencial para destacar características relacionadas às rachaduras. Entretanto, ainda são necessárias etapas adicionais de processamento e análise para reduzir falsos positivos e melhorar a identificação das regiões de interesse.
