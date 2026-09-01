@@ -239,7 +239,33 @@ Os resultados deste experimento serão utilizados como base para o refinamento d
 
 ---
 
-# 10. Próximos Passos (M2)
+# 10. Origem das Imagens
+
+As imagens utilizadas no projeto foram obtidas das seguintes fontes:
+
+1. Imagens produzidas pelos integrantes do grupo por meio de fotografias de paredes com rachaduras.
+
+2. Imagens geradas com auxílio de Inteligência Artificial para fins de teste e validação preliminar do pipeline de processamento.
+
+3. Bases públicas de imagens quando aplicável.
+
+As imagens utilizadas encontram-se armazenadas na pasta:
+
+images/input/
+
+---
+
+# 11. Uso de Inteligência Artificial Generativa
+
+Durante o desenvolvimento da primeira parte do projeto foi utilizada a ferramenta ChatGPT (OpenAI) para auxiliar na elaboração inicial de textos da documentação, organização da proposta e sugestões de estrutura do projeto.
+
+Todo o conteúdo gerado foi revisado pelos integrantes do grupo, que permaneceram responsáveis pela validação das informações, decisões técnicas e adequação do material entregue.
+
+A utilização da ferramenta teve caráter de apoio à redação e organização da documentação, não substituindo a análise técnica realizada pelos integrantes.
+
+---
+
+# 12. Próximos Passos (M2)
 
 - Expandir o conjunto de imagens;
 - Refinar o pipeline;
@@ -250,7 +276,7 @@ Os resultados deste experimento serão utilizados como base para o refinamento d
 
 ---
 
-# 11. Referências
+# 13. Referências
 
 OpenCV Documentation. Disponível em: https://opencv.org/
 
