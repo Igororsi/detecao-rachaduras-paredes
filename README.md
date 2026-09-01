@@ -130,25 +130,33 @@ projeto-rachaduras/
 
 # Estágio Atual do Projeto
 
-Atualmente o projeto encontra-se na fase de definição do problema, levantamento bibliográfico, obtenção das imagens e elaboração do pipeline preliminar.
+O projeto encontra-se na etapa de definição do problema, organização das imagens e validação inicial do pipeline de processamento.
 
-Também estão sendo realizados experimentos iniciais utilizando OpenCV para verificar a viabilidade da proposta.
+Foi realizado um experimento preliminar utilizando OpenCV, aplicando conversão para escala de cinza, filtro Gaussiano e detecção de bordas com Canny.
+
+O experimento foi executado sobre cinco imagens de entrada. Os arquivos originais estão em `images/input/` e os resultados processados estão em `images/results/`.
+
+Os resultados demonstraram a capacidade da técnica de detecção de bordas em destacar características presentes nas imagens, incluindo possíveis rachaduras. Entretanto, também foram observadas outras bordas relacionadas à textura e iluminação, indicando a necessidade de refinamento do método nas próximas etapas.
 
 ---
 
 # Reprodução dos Experimentos
 
-Após a implementação inicial:
+Para instalar as dependências:
 
-```bash
-python src/main.py
-```
+    pip install -r requirements.txt
 
-Os resultados serão armazenados em:
+Para executar o experimento:
 
-```text
-images/results/
-```
+    python src/main.py
+
+As imagens de entrada estão armazenadas em:
+
+    images/input/
+
+Os resultados são armazenados em:
+
+    images/results/
 
 ---
 
